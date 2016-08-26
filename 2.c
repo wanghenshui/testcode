@@ -4,16 +4,15 @@
 int main()
 {
 	short i,n;
-	i=0;
-	n=0;
-
 	printf("show me what you got \n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
 		if(i%6==0)
 			printf("\n");
-		printf("%12d",rand());
+		int tmp ;
+		tmp= rand(n);
+		printf("%12d",tmp);
 	}
 	printf("\n");
 	return 0;

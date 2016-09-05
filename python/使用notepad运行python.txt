@@ -1,0 +1,36 @@
+二、原理：
+ 
+cmd /k python "$(FULL_CURRENT_PATH)" & PAUSE & EXIT   
+ 
+cmd /k的含义是执行后面的命令，并且执行完毕后保留窗口. (也就是说，cmd表示打开Command Prompt窗口，且运行跟在/k后边的命令—python)
+       cmd /k python == 开始 –> 运行 –> 输入cmd –> 输入python
+$(FULL_CURRENT_PATH)的含义是当前文件的完整路径，这是 Notepad++ 的宏定义
+&是连接多条命令
+PAUSE表示运行结束后暂停，等待一个任意按键
+EXIT表示关闭命令行窗口 （如果使用 cmd /c 就可以省掉 EXIT 了。）
+
+ 
+三、 错误及分析：
+ 
+正常情况下无法运行的原因：
+1. 未安装python
+2. 未设置python的环境变量
+       验证是否未设置python的环境变量的方法：
+              开始 -> 运行 -> 输入cmd –> 输入 Python
+              若出现 python不是内部或外部命令，则表示没有配置python的环境变量。
+ 
+正常情况下无法运行的解决方法：
+       1. 安装python
+       2. 将python安装目录拷贝至path。方法：
+              例，安装目录为：C:\Python25
+              1>. 右键My Computer -> Properties –> Advanced -> Environment Variables
+              2>. 在System variables中找到Path，双击Path，将 ;C:\Python25粘贴至 Variable value 文本框内。（注：粘贴在尾部，并用分号与前面内容隔开。千万不能覆盖其他内容，否则会导致其他软件无法使用。）
+              3>. 保存即可。
+ 
+验证是否设置python环境变量成功：
+       开始 -> 运行 -> 输入cmd –> 输入 Python
+       若出现python的版本以及其他信息，切输入字符的开头变为了>>>，即表示配置成功
+ 
+若配置了环境变量还是无法再notepad++中运行，需要检查的是拼写是否有错误。例如/k是否输入成了\k，等其他输入错误。
+因为，cmd /k python "$(FULL_CURRENT_PATH)" & PAUSE & EXIT   语句就相当于在Command Prompt中使用命令运行一样，如果在Command Prompt中手动输入可以运行，那么，问题就出现在了拼写上。。。
+ 

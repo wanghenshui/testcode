@@ -1,6 +1,7 @@
 #include <iostream>
 int main()
 {
-	std::cout << "\x20" <<20<<"\t"<<20<<"\v"<<20<<"\r"<<20<<std::endl;
+	int i=1;
+	std::cout << "\x20" <<i++<<"\t"<<i++<<"\v"<<i++<<"\r"<<i++<<std::endl;
 	return 0;
 }

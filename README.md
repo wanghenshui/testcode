@@ -6,6 +6,7 @@
 内容主要是 一些测试 OR 书后练习，刷书
 
 紫书
+https://book.douban.com/subject/25902102/
 
 Python入门
 

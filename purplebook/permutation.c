@@ -7,6 +7,10 @@
 #include <stdio.h>
 int main()
 {
+
+}
+
+
 	int i ;
 	for(i=123; 3*i<988; i++)
 	{
@@ -33,6 +37,3 @@ int main()
 		}
 		  */
 	}
-}
-
-

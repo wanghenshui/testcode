@@ -5,7 +5,6 @@
 
 #include <stdio.h>
 #define maxn 10000
-//数组比较大要定义在main函数外面
 int array[maxn];
 
 int main()

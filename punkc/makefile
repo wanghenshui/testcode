@@ -1,7 +1,7 @@
 P = gl_erf
 OBJECTS= 
-CFLAGS = -g -Wall -o3 -I/usr/local/include
-LDLIBS = `pkg-config --libs gsl`
+CFLAGS = -g -Wall -o3 
+LDLIBS = -lgsl -lm
 CC = c99
 
 

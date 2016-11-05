@@ -1,7 +1,7 @@
-P = gl_erf
+P = getenv
 OBJECTS= 
 CFLAGS = -g -Wall -o3 
-LDLIBS = -lgsl -lm
+LDLIBS = #-lgsl -lm
 CC = c99
 
 

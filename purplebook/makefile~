@@ -6,6 +6,7 @@ CC = c99
 
 $(PROG):$(OBJ)
 
-clean 
-	rm *~
-	rm .*~
+.PHONY :clean
+clean:	
+	-rm *~
+	-rm .*~

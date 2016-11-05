@@ -8,5 +8,6 @@ $(PROG):$(OBJ)
 
 .PHONY :clean
 clean:	
-	rm *~
-	-rm .*~
+	# vi cache
+	rm -rf *~
+	-rm -rf .*~

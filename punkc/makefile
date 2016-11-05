@@ -1,4 +1,4 @@
-P = getenv
+P = fibo
 OBJECTS= 
 CFLAGS = -g -Wall -o3 
 LDLIBS = #-lgsl -lm

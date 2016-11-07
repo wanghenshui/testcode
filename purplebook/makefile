@@ -1,4 +1,4 @@
-PROG = wertyu
+PROG = palindromes
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

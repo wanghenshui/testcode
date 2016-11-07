@@ -1,4 +1,4 @@
-PROG = palindromes
+PROG = digit_generator
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

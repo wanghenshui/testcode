@@ -1,9 +1,0 @@
-Exception: STATUS_ACCESS_VIOLATION at eip=004012A5
-eax=61007530 ebx=0022CC9C ecx=20000038 edx=00000000 esi=00000000 edi=0022CD84
-ebp=0022CC78 esp=0022CC40 program=C:\code\100k\purplebook\digit_generator.exe, pid 180, thread main
-cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
-Stack trace:
-Frame     Function  Args
-0022CC78  004012A5 (00000001, 0022CC9C, 20010100, 610083CF)
-0022CD28  6100842E (00000000, 0022CD84, 61007530, 00000000)
-End of stack trace

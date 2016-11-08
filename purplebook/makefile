@@ -6,10 +6,11 @@ OUTPUT = ../exe
 EXE = $(PROG).exe
 CC = c99
 
-build: $(EXE)
-	mv $(EXE) $(OUTPUT)
-$(PROG):$(OBJ)
 
+
+$(PROG):$(OBJ);
+
+#mv $(EXE) $(OUTPUT)
 .PHONY :clean
 clean:	
 	# vi cache

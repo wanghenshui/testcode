@@ -4,7 +4,7 @@
 
 void binary_to_ascii(unsigned int value)
 {
-	usigned int tmp = 0;
+	unsigned int tmp = 0;
 	tmp = value/10;
 	if(tmp !=0)
 		binary_to_ascii(tmp);
@@ -14,6 +14,7 @@ void binary_to_ascii(unsigned int value)
 int main()
 {
 	unsigned int value = getchar();
-	binary_to_ascii(value);
+	if(getchar()!='\n')
+		binary_to_ascii(value);
 	return 0;
 }

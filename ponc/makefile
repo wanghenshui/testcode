@@ -1,4 +1,4 @@
-PROG = strlen
+PROG = btoa
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

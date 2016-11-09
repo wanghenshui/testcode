@@ -17,3 +17,4 @@ clean:
 	# vi cache
 	@rm -f *~
 	@rm -f .*~
+	@rm -f *.exe

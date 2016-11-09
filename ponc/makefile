@@ -13,8 +13,9 @@ $(PROG):$(OBJ)
 
 .PHONY :clean
 clean:
-	mv $(EXE) $(OUTPUT)	
 	# vi cache
 	@rm -f *~
 	@rm -f .*~
 	@rm -f *.exe
+move:
+	mv $(EXE) $(OUTPUT)	

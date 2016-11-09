@@ -17,7 +17,7 @@ int main()
 {
 	char *string = 0;
 	scanf("%s",string);
-	size_t ret =strlen_pc(string);
+	size_t ret = strlen_pc(string);
 	printf("%d\n",ret);
 	return 0;
 }

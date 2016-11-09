@@ -8,11 +8,12 @@ CC = c99
 
 
 
-$(PROG):$(OBJ);
+$(PROG):$(OBJ)
 
-#mv $(EXE) $(OUTPUT)
+
 .PHONY :clean
-clean:	
+clean:
+	mv $(EXE) $(OUTPUT)	
 	# vi cache
 	@rm -f *~
 	@rm -f .*~

@@ -1,4 +1,4 @@
-PROG = score
+PROG = fac
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

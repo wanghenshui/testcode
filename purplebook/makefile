@@ -16,5 +16,6 @@ clean:
 	# vi cache
 	@rm -f *~
 	@rm -f .*~
+	@rm -f *.exe
 move:
 	@mv $(EXE) $(EXE_PATH)

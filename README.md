@@ -14,8 +14,10 @@ https://book.douban.com/subject/25902102/
 C和指针 ponc
 https://book.douban.com/subject/3012360/
 
+C程序设计新思维 punkc
+https://book.douban.com/subject/26387883/
 
-没什么用的测试代码 testcode
+没什么用的测试代码 testcode 以及exe
 
 
 

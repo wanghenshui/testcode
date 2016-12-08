@@ -1,10 +1,21 @@
-P = arithmetic
-OBJECTS= 
-CFLAGS = -g -Wall -o3 
-LDLIBS = #-lgsl -lm
+PROG = arithmetic
+OBJ = 
+CFLAGS = -g -Wall -o2
+LDLIBS = 
+OUTPUT = ../exe
+EXE = $(PROG).exe
 CC = c99
+EXE_PATH = ../exe
 
 
-$(P):$(OBJECTS)
+$(PROG):$(OBJ)
 
 
+.PHONY :clean
+clean:
+	# vi cache
+	@rm -f *~
+	@rm -f .*~
+	@rm -f *.exe
+move:
+	@mv $(EXE) $(EXE_PATH)

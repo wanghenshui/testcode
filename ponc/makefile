@@ -1,11 +1,11 @@
-PROG = btoa
+PROG = fac
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 
 OUTPUT = ../exe
 EXE = $(PROG).exe
 CC = c99
-
+EXE_PATH = ../exe
 
 
 $(PROG):$(OBJ)
@@ -18,4 +18,4 @@ clean:
 	@rm -f .*~
 	@rm -f *.exe
 move:
-	mv $(EXE) $(OUTPUT)	
+	@mv $(EXE) $(EXE_PATH)

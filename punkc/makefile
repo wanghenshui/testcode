@@ -1,4 +1,4 @@
-PROG = pointer_arithmetic1
+PROG = pointer_arithmetic2
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

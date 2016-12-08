@@ -1,4 +1,4 @@
-PROG = na
+PROG = sizesof
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

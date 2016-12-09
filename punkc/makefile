@@ -1,4 +1,4 @@
-PROG = sizesof
+PROG = preprocess
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

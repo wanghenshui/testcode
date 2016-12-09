@@ -1,4 +1,4 @@
-PROG = preprocess
+PROG = constchange
 OBJ = 
 CFLAGS = -g -Wall -o2
 LDLIBS = 

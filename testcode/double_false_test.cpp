@@ -1,5 +1,5 @@
 #include <iostream>
-int global = 8;
+int global = -9;
 
 int main()
 {

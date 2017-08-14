@@ -1,0 +1,4 @@
+test_makefile.exe: test_makefile.cpp
+	g++ test_makefile.cpp -o test_makefile.exe
+test_makefile.cpp: test_makefile.exe  
+	./test_makefile.exe test_makefile.cpp

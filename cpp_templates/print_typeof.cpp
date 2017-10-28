@@ -14,4 +14,6 @@ int main()
 	print_typeof(a);
 	float c;
 	print_typeof(c);
+	char d;
+	print_typeof(d);
 }

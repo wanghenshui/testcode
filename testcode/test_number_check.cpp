@@ -22,7 +22,7 @@ void f()
 int f1()
 {
 	int tmp1 =3;
-	CHECK_NUMBER1_RETURN(tmp1);
+	CHECK_NUMBER1_RETURN(tmp1-1);
 }
 int main()
 {

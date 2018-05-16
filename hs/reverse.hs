@@ -1,3 +1,6 @@
-reverse' :: [a] -> [a]
-reverse' [] =[]
-reverse' (x:xs) = reverse' xs ++ [x]
+r :: [a] -> [a]
+r [] =[]
+r (x:xs) = r xs ++ [x]
+
+r' :: [a] -> [a]
+r'=foldl (flip(:)) []

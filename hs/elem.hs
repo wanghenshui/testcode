@@ -1,5 +1,9 @@
-elem' ::(Eq a) => a ->[a] -> Bool
-elem' a [] = False
-elem' a (x:xs)
+e ::(Eq a) => a ->[a] -> Bool
+e a [] = False
+e a (x:xs)
  | a == x = True
- | otherwise = a `elem'` xs
+ | otherwise = a `e` xs
+
+--fold base
+e'::(Eq a) => a ->[a] -> Bool 
+e' y ys = foldr (\x acc -> if x == y then True else acc) False ys

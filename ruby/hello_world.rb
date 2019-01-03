@@ -9,6 +9,6 @@ end
 class HelloWorldTest < Minitest::Test
 	def test
 		puts "fuck world"
-		assert_equal (1,1)
+		assert_equal 1,1
+	end
 end
-

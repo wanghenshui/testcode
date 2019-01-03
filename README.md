@@ -1,4 +1,4 @@
-# 100k
+# 100k [![Build Status](https://travis-ci.com/wanghenshui/hello-world.svg?branch=master)](https://travis-ci.com/wanghenshui/hello-world)
 各种代码写的行数达到十万行
 按照前人的建议c++码十万行才能自称擅长，我还菜的很。这些加起来十万行不错了。
 

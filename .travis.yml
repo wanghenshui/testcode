@@ -1,12 +1,9 @@
-language: ruby
+language: ruby,python
 rvm:
  - 2.2
-script:
-- ruby ruby/hello_world.rb --verbose
-
-language: python
 python: 
  - '2.7' 
  - '3.5'
 script:
+- ruby ruby/hello_world.rb --verbose
 - python testcode/plus_equal.py

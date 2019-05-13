@@ -12,3 +12,4 @@ mkdir gcc-5.4.0-build
 cd gcc-5.4.0-build
 ../gcc-5.4.0/configure --enable-languages=c,c++ --disable-multilib
 make -j$(nproc) && make install
+source /etc/profile #update

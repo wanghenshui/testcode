@@ -1,0 +1,54 @@
+int 'int 'int'	 [StartOfLine]	Loc=<min.c:1:1>
+identifier 'min'	 [LeadingSpace]	Loc=<min.c:1:5>
+l_paren '('		Loc=<min.c:1:8>
+int 'int'		Loc=<min.c:1:9>
+identifier 'a'	 [LeadingSpace]	Loc=<min.c:1:13>
+comma ','		Loc=<min.c:1:14>
+int'	 [StartOfLine]	Loc=<min.c:1:1>
+identifier 'min'	 [LeadingSpace]	Loc=<min.c:1:5>
+l_paren '('		Loc=<min.c:1:8>
+int 'int'		Loc=<min.c:1:9>
+identifier 'a'	 [LeadingSpace]	Loc=<min.c:1:13>
+comma ','		Loc=<min.c:1:14>
+int 'int'	 [LeadingSpace]	Loc=<min.c:int 'int'	 [LeadingSpace]	Loc=<min.c:1:16>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:1:20>
+r_paren '1:16>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:1:20>
+r_paren ')'		Loc=<min.c:1:21>
+l_brace '{'	 [LeadingSpace]	Loc=<min.c:1:)'		Loc=<min.c:1:21>
+l_brace '{'	 [LeadingSpace]	Loc=<min.c:1:23>
+if 'if'	 [StartOfLine] [LeadingSpace]23>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=<min.c:2:3>
+l_paren '('	 [LeadingSpace]	Loc=<	Loc=<min.c:2:3>
+l_paren '('	 [LeadingSpace]	Loc=<min.c:2:6>
+identifier 'a'		Loc=<min.c:2:7>
+less 'min.c:2:6>
+identifier 'a'		Loc=<min.c:2:7>
+less '<'	 [LeadingSpace]	Loc=<min.c:2:9>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:2<'	 [LeadingSpace]	Loc=<min.c:2:9>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:2:11>
+r_paren ')'		Loc=<min.c:2:12>
+:11>
+r_paren ')'		Loc=<min.c:2:12>
+unknown '　'	 [StartOfLine]	Loc=<min.c:3:1>
+unknown '　'		Loc=<unknown '　'	 [StartOfLine]	Loc=<min.c:3:1>
+unknown '　'		Loc=<min.c:3:4>
+return 'return'	 [LeadingSpace]	Loc=<min.c:3min.c:3:4>
+return 'return'	 [LeadingSpace]	Loc=<min.c:3:9>
+identifier 'a'	 [LeadingSpace]	Loc=<min.c:3:16>
+semi ';'		Loc=<min.c:3:17>
+return:9>
+identifier 'a'	 [LeadingSpace]	Loc=<min.c:3:16>
+semi ';'		Loc=<min.c:3:17>
+return 'return'	 [StartOfLine] [LeadingSpace]	Loc=<min.c:4:3>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:4:10> 'return'	 [StartOfLine] [LeadingSpace]	Loc=<min.c:4:3>
+identifier 'b'	 [LeadingSpace]	Loc=<min.c:4:10>
+semi ';'		Loc=<min.c:4:11>
+r_brace '}'	 [StartOfLine]	Loc=<min.c:5
+semi ';'		Loc=<min.c:4:11>
+r_brace '}'	 [StartOfLine]	Loc=<min.c:5:1>
+eof ''		Loc=<min.c:5:2>
+:1>
+eof ''		Loc=<min.c:5:2>
+eof ''		Loc=<min.token:eof ''		Loc=<min.token:1:1>
+1:1>

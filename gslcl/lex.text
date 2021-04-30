@@ -1,0 +1,5 @@
+ clang -c lex.c
+lex.c:1:10: error: invalid digit '8' in octal constant
+int a = 08000;
+         ^
+1 error generated.

@@ -1,0 +1,7 @@
+X86 RW
+{ x=0; y=0; }
+ P0          | P1          ;
+ MOV EAX,[y] | MOV EAX,[x] ;
+ MOV [x],$1  | MOV [y],$1  ;
+locations [x;y;]
+exists (0:EAX=1 /\ 1:EAX=1)

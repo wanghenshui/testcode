@@ -1,7 +1,7 @@
-## notes
-ruby和shell相同点 单引号
-ruby: 
-	age=gets.chomp;
-	puts '#{age}' => #{age}   必须用双引号
+ruby原理剖析笔记
 
-ARGV 类似$*
+ripper导出语法树，以及ripper不会识别语法错误
+
+yacc以及bison，ruby用的bison
+
+LALR
